@@ -1,0 +1,32 @@
+body {
+    font-family: Josefin sans-serif;
+}
+
+.banner {
+    position: relative;
+    height: 524px;
+}
+
+.bannerImage {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 195px;
+}
+.bannerContent {
+    position: absolute;
+    top: 0;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.48);
+    height: 100%;
+
+}
+
+.bannerContent h1 {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
