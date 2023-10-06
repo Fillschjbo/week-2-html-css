@@ -1,10 +1,11 @@
 body {
-    font-family: Josefin sans-serif;
+    margin: 0;
 }
 
 .banner {
     position: relative;
     height: 524px;
+    margin: 32px 60px;
 }
 
 .bannerImage {
@@ -13,8 +14,11 @@ body {
     object-fit: cover;
     object-position: 0 195px;
 }
+
 .bannerContent {
     position: absolute;
+    display: flex;
+    align-items: center;
     top: 0;
     color: #ffffff;
     width: 100%;
@@ -29,4 +33,53 @@ body {
     top: 40%;
     width: 100%;
     text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar{
+    background-color: #fcfc68;
+    position: relative;
+    height: 68px;
+    margin: 0;
+    width: 100%;
+}
+.navbar h1 {
+    margin: 0px;
+}
+
+.navbar h1 a {
+    position: absolute;
+    font-family: "Josefin Sans",sans-serif;
+    color: #1e1e18;
+    width: 100%;
+    text-align: center;
+    padding-top: 28px;
+    margin: 0;
+    text-decoration: none;
+}
+
+#menuIcon {
+    padding:24px 40px;
+}
+.navigation{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    height: 24px;
+    padding-top: 8px;
+}
+
+.navbarButtons {
+    background-color: black;
+    margin: 0;
+    padding-inline: 37.5px;
+    text-align: center;
+    color: #eeeeee;
+    display: inline;
+}
+
+.navbarButtons li {
+    display: inline;
+    padding: 75px;
+
 }
