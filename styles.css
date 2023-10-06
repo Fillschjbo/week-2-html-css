@@ -72,7 +72,6 @@ body {
 .navbarButtons {
     background-color: black;
     margin: 0;
-    padding-inline: 37.5px;
     text-align: center;
     color: #eeeeee;
     display: inline;
@@ -80,6 +79,6 @@ body {
 
 .navbarButtons li {
     display: inline;
-    padding: 75px;
+    padding: 37.5px;
 
 }
